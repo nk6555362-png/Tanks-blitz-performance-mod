@@ -1,0 +1,79 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#101214"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TB PERFORMANCE"
+            android:textColor="#F2F4F0"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="REALME 15 PRO 5G • NO ROOT • MVP 0.1"
+            android:textColor="#A2AAA1"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:background="#1B201D"
+            android:padding="16dp"
+            android:text="Профиль: MAXIMUM&#10;Цель: до 120 FPS (если поддерживается игрой и экраном)"
+            android:textColor="#DCE7D5"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/overlayButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Включить плавающий монитор" />
+
+        <Button
+            android:id="@+id/stopButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Выключить монитор" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Что показывает MVP"
+            android:textColor="#F2F4F0"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="• Температура аккумулятора&#10;• Тепловое состояние Android&#10;• Свободная и общая RAM&#10;• FPS игры пока отображается как N/A: Android не предоставляет обычному приложению универсальный доступ к FPS другого процесса без специальных привилегий."
+            android:textColor="#A2AAA1"
+            android:lineSpacingExtra="5dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Важно: приложение не разгоняет CPU/GPU и не меняет файлы игры. Режим MAXIMUM — профиль мониторинга, а не обещание прироста FPS. Для честной проверки сравнивай одинаковые карты, настройки и температуру устройства."
+            android:textColor="#D7B879"
+            android:textSize="13sp" />
+    </LinearLayout>
+</ScrollView>
